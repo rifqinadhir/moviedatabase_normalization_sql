@@ -27,7 +27,7 @@ Project ini berfokus pada pembuatan database film yang terstruktur dan efisien m
 - Mengganti age_certification kosong → not_rated
 
 3. Normalisasi ke 3NF
-  - Membuat tabel utama movies_utama tanpa kolom array
+- Membuat tabel utama movies_utama tanpa kolom array
 - Membuat tabel relasional:
 - genres (movies_id, genres_name)
 - countries (movies_id, countries_name)
